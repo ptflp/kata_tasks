@@ -5,7 +5,7 @@
 
 Так же, задачи должны проходить проверку на leetcode, кнопка submit по ссылке в конце задачи.
 
-Задачи разместить по следующему пути ```sh /module3/leetcode/easy/1 ``` и ```sh /module3/leetcode/medium/1 ```, где 1 это номер задачи
+Задачи разместить по следующему пути ``` /module3/leetcode/easy/1 ``` и ``` /module3/leetcode/medium/1 ```, где 1 это номер задачи
 
 # Задачи уровня easy
 ## 1. N-th Tribonacci Number
