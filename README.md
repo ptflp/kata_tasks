@@ -38,11 +38,13 @@ Output: 1389537
 - 0 <= n <= 37
 - Ответ гарантированно поместится в 32-битное целое число, т.е. ответ <= 2 ^ 31 - 1.
 
+```go
 func tribonacci(n int) int {
 
 
 
 }
+```
 
 <https://leetcode.com/problems/n-th-tribonacci-number/>
 ## Объединение массива
@@ -82,11 +84,11 @@ Constraints:
 - 1 <= n <= 1000
 - 1 <= nums[i] <= 1000
 
+```go
 func getConcatenation(nums []int) []int {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/concatenation-of-array/>
 ## Преобразование температуры
@@ -122,11 +124,11 @@ Constraints:
 
 - 0 <= celsius <= 1000
 
+```go
 func convertTemperature(celsius float64) []float64 {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/convert-the-temperature/>
 ## Построить массив из перестановки
@@ -156,11 +158,11 @@ Output: [4,5,0,1,2,3]
 
 • Элементы в nums уникальны.
 
+```go
 func buildArray(nums []int) []int {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/build-array-from-permutation/>
 
@@ -203,11 +205,11 @@ n == nums.length
 
 1 <= nums[i] <= 1000
 
+```go
 func getConcatenation(nums []int) []int {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/concatenation-of-array/>
 
@@ -244,11 +246,11 @@ Output: [395.26000,251.79800]
 
 0 <= celsius <= 1000
 
+```go
 func convertTemperature(celsius float64) []float64 {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/convert-the-temperature/>
 
@@ -273,11 +275,11 @@ Output: "255[.]100[.]50[.]0"
 
 Данный адрес является действительным адресом IPv4.
 
+```go
 func defangIPaddr(address string) string {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/defanging-an-ip-address/>
 
@@ -304,11 +306,11 @@ Output: -6
 
 -100 <= num1, num2 <= 100
 
+```go
 func sum(num1 int, num2 int) int {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/add-two-integers/>
 
@@ -379,11 +381,11 @@ X--: X уменьшается на 1, X = 1 - 1 = 0.
 
 operations[i] будет либо "++X", "X++", "--X", либо "X--".
 
+```go
 func finalValueAfterOperations(operations []string) int {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/final-value-of-variable-after-performing-operations/>
 
@@ -422,12 +424,11 @@ nums.length == 2n
 
 1 <= nums[i] <= 10^3
 
+```go
 func shuffle(nums []int, n int) []int {
 
-
-
 }
-
+```
 
 
 <https://leetcode.com/problems/shuffle-the-array/>
@@ -465,11 +466,11 @@ Output: [3,4,6,16,17]
 
 -10^6 <= nums [i] <= 10^6
 
+```go
 func runningSum(nums []int) []int {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/running-sum-of-1d-array/>
 
@@ -506,9 +507,11 @@ Output: 0
 
 1 <= nums [i] <= 100
 
+```go
 func numIdenticalPairs(nums []int) int {
 
 }
+```
 
 <https://leetcode.com/problems/number-of-good-pairs/>
 
@@ -537,11 +540,11 @@ jewels и stones состоят только из английских букв.
 
 Все символы jewels уникальны.
 
+```go
 func numJewelsInStones(jewels string, stones string) int {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/jewels-and-stones/>
 
@@ -596,11 +599,11 @@ n == accounts[i].length
 
 1 <= accounts[i][j] <= 100
 
+```go
 func maximumWealth(accounts [][]int) int {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/richest-customer-wealth/>
 
@@ -645,6 +648,7 @@ carType — 1, 2 или 3.
 
 В addCar будет сделано не более 1000 запросов.
 
+```go
 type ParkingSystem struct {
 
 
@@ -662,6 +666,7 @@ func (this \*ParkingSystem) AddCar(carType int) bool {
 
 
 }
+```
 
 <https://leetcode.com/problems/design-parking-system/>
 
@@ -688,11 +693,11 @@ Output: 6
 
 1 <= n <= 150
 
+```go
 func smallestEvenMultiple(n int) int {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/smallest-even-multiple/>
 
@@ -741,11 +746,11 @@ sentences[i] не имеет ведущих или завершающих про
 
 Все слова в sentences[i] разделены одинарным пробелом.
 
+```go
 func mostWordsFound(sentences []string) int {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/>
 
@@ -793,11 +798,11 @@ Output: 0
 
 1 <= nums[i] <= 2000
 
+```go
 func differenceOfSum(nums []int) int {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/>
 
@@ -830,11 +835,11 @@ Output: 13
 
 1000 <= num <= 9999
 
+```go
 func minimumSum(num int) int {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/>
 
@@ -889,11 +894,11 @@ n == candies.length
 
 1 <= extraCandies <= 50
 
+```go
 func kidsWithCandies(candies []int, extraCandies int) []bool {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/>
 
@@ -932,11 +937,11 @@ Output: 21
 
 1 <= n <= 10^5
 
+```go
 func subtractProductAndSum(n int) int {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/>
 
@@ -981,11 +986,11 @@ Output: [0,0,0,0]
 
 0 <= nums [i] <= 100
 
+```go
 func smallerNumbersThanCurrent(nums []int) []int {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/>
 
@@ -1028,11 +1033,11 @@ Output: "alGalooG"
 
 command состоит из "G", "()", и/или "(al)" в некотором порядке.
 
+```go
 func interpret(command string) string {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/goal-parser-interpretation/>
 
@@ -1069,11 +1074,11 @@ encoded.length == n - 1
 
 0 <= first <= 105
 
+```go
 func decode(encoded []int, first int) []int {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/decode-xored-array/>
 ## Создать целевой массив в заданном порядке
@@ -1139,11 +1144,11 @@ nums.length == index.length
 
 0 <= index[i] <= i
 
+```go
 func createTargetArray(nums []int, index []int) []int {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/create-target-array-in-the-given-order/>
 
@@ -1180,11 +1185,11 @@ nums.length % 2 == 0
 
 1 <= nums[i] <= 100
 
+```go
 func decompressRLElist(nums []int) []int {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/decompress-run-length-encoded-list/>
 
@@ -1231,11 +1236,11 @@ s[i] это либо 'L' или 'R'.
 
 s – сбалансированная строка.
 
+```go
 func balancedStringSplit(s string) int {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/split-a-string-in-balanced-strings/>
 ## Подсчитайте цифры, которые делят число
@@ -1273,11 +1278,11 @@ Output: 4
 
 num не содержит 0 в качестве одной из своих цифр. 
 
+```go
 func countDigits(num int) int {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/count-the-digits-that-divide-a-number/>
 
@@ -1314,11 +1319,11 @@ Output: 8
 
 n == nums.length 
 
+```go
 func xorOperation(n int, start int) int {
 
-
-
 }
+```
 
 <https://leetcode.com/problems/xor-operation-in-an-array/>
 ## Посчитать хорошие тройки
